@@ -1,0 +1,37 @@
+[
+    {
+        "Ime": "Pero",
+        "Prezime": "Perovski",
+        "Prosek": 9.2
+    },
+    {
+        "Ime": "Janko",
+        "Prezime": "Jankovski",
+        "Prosek": 6.2
+    },
+    {
+        "Ime": "Stanko",
+        "Prezime": "Stankovski",
+        "Prosek": 6.6
+    },
+    {
+        "Ime": "Ivan",
+        "Prezime": "Ivanovski",
+        "Prosek": 9.8
+    },
+    {
+        "Ime": "Petko",
+        "Prezime": "Petkovski",
+        "Prosek": 9.8
+    },
+    {
+        "Ime": "Aleksandar",
+        "Prezime": "Aleksandarov",
+        "Prosek": 7.5
+    },
+    {
+        "Ime": "Eva",
+        "Prezime": "Evska",
+        "Prosek": 4.3
+    }
+]
