@@ -1,0 +1,9 @@
+ Homework:
+Two routes
+Get:
+One JSON file which will contain an array of student
+Example:
+{ "Pero Perovski", "Janko Jankovski", "Stanko Stankovski" }
+Write all student names into website body
+Post:
+Send a name and last name and add to the file.
