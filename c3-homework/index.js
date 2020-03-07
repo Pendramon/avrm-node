@@ -6,7 +6,7 @@ const handlers = require('./handlers');
 const app = express();
 
 // Middleware
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
 app.get("/:file", handlers.getStudents);

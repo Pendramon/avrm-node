@@ -9,7 +9,7 @@ const readFile = (file) => {
       return success(data);
     });
   });
-}
+};
 
 const writeFile = (file, dataToWrite) => {
   return new Promise((success, error) => {
@@ -20,9 +20,9 @@ const writeFile = (file, dataToWrite) => {
       return success();
     });
   });
-}
+};
 
 module.exports = {
   readFile,
   writeFile
-}
+};
