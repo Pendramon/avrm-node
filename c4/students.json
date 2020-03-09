@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Pero",
+        "LastName": "Perovski",
+        "Score": 9.2
+    },
+    {
+        "Name": "Janko",
+        "LastName": "Jankovski",
+        "Score": 6.2
+    },
+    {
+        "Name": "Stanko",
+        "LastName": "Stankovski",
+        "Score": 6.6
+    },
+    {
+        "Name": "Ivan",
+        "LastName": "Ivanovski",
+        "Score": 9.8
+    },
+    {
+        "Name": "Petko",
+        "LastName": "Petkovski",
+        "Score": 9.8
+    },
+    {
+        "Name": "Nikola",
+        "LastName": "Nikolovski",
+        "Score": 6.5
+    }
+]

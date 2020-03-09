@@ -1,0 +1,21 @@
+.container {
+    margin: auto;
+    max-width: 1024px;
+}
+
+.studentsForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.studentsTable {
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.studentsTable td,
+.studentsTable th {
+    border: 1px solid #000;
+}

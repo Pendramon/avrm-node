@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Students</title>
+    <link rel="stylesheet" href="./styles/students.css">
+</head>
+
+<body>
+    {{> header}}
+    <div class="container">
+        <form class="studentsForm" action="/students" method="POST">
+            <fieldset>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" placeholder="First Name" />
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" placeholder="Last Name" />
+                <label for="score">Score:</label>
+                <input type="number" step="0.1" name="score" placeholder="Score" />
+                <input type="submit" />
+            </fieldset>
+        </form>
+        <table class="studentsTable">
+            <tr>
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>Score</th>
+                <th>Actions</th>
+            </tr>
+            {{#each students}}
+            <tr>
+                <td>{{this.Name}}</td>
+                <td>{{this.LastName}}</td>
+                <td>{{this.Score}}</td>
+                <td><a href='students/delete/{{@index}}'>DELETE</a></td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</body>
+
+</html>
