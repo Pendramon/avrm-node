@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/bloggers" method="post">
+        <fieldset>
+            <label for="blogArthurName">First Name:</label>
+            <input type="text" name="blogArthurName" placeholder="First Name">
+            <label for="blogArthurLastName">Last Name:</label>
+            <input type="text" name="blogArthurLastName" placeholder="Last Name">
+            <label for="blogTitle">Title:</label>
+            <input type="text" name="blogTitle" placeholder="Blog Title">
+            <label for="blogContent"></label>
+            <textarea name="blogContent" cols="30" rows="10" placeholder="Blog Content"></textarea>
+        </fieldset>
+    </form>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Actions</th>
+        </tr>
+        {{#each blogs}}
+            <tr>
+                <td>{{this.firstName}}</td>
+                <td>{{this.lastName}}</td>
+                <td>{{this.title}}</td>
+                <td>{{this.content}}</td>
+                <td><a href="/blogs/delete">DELETE</a></td>
+            </tr>
+        {{/each}}
+    </table>
+</body>
+</html>
